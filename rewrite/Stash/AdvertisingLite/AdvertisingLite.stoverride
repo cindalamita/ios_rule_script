@@ -1,11 +1,11 @@
 name: 复写去广告(严格版)
-desc: 最后更新时间 2024-09-29 02:15:23
+desc: 最后更新时间 2024-10-05 02:16:19
 # author: blackmatrix7
 # repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1162
-# mitm: 855
+# reject: 1161
+# mitm: 857
 # force-http-engine-hosts: 6
-# total: 2023
+# total: 2024
 
 
 
@@ -234,9 +234,6 @@ http:
     - ^https?:\/\/api\.applovefrom\.com\/api\/v\d\/splash\/ - reject
     - ^https?:\/\/api\.bjxkhc\.com\/index\.php\/app\/ios\/ads\/ - reject
     - ^https?:\/\/api\.bjxkhc\.com\/index\.php\/app\/ios\/ver/index_ios$ - reject
-    - ^https?:\/\/api\.boohee\.com\/app-interface\/v1\/record\/record_tool(_pop)?_ad - reject
-    - ^https?:\/\/api\.boohee\.com\/meta-interface\/v1\/index\/(discover_chosen|page_float_bubbles) - reject
-    - ^https?:\/\/api\.boohee\.com\/shop-interface\/api\/v1\/home\/index - reject
     - ^https?:\/\/api\.bwton\.com\/bas\/ad - reject
     - ^https?:\/\/api\.bwton\.com\/bff\/app\/h5\/v1\/station\/goods - reject
     - ^https?:\/\/api\.bwton\.com\/bff\/app\/index\/goods - reject
@@ -287,6 +284,7 @@ http:
     - ^https?:\/\/api\.kkmh\.com\/v\d+\/(ad|advertisement)\/ - reject
     - ^https?:\/\/api\.kkmh\.com\/v\d\/ad\/show - reject
     - ^https?:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/(resource|banner) - reject
+    - ^https?:\/\/api\.kurobbs\.com\/config\/getOpenScreen - reject
     - ^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads - reject
     - ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=getWidgetV1052 - reject
     - ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=home_launchConfig - reject
@@ -304,6 +302,7 @@ http:
     - ^https?:\/\/api\.pinduoduo\.com\/api\/ktt_gateway\/activity\/feeds\/personal_home_page\/ - reject
     - ^https?:\/\/api\.psy-1\.com\/cosleep\/startup - reject
     - ^https?:\/\/api\.qbb6\.com\/ad\/ - reject
+    - ^https?:\/\/api\.qd-metro\.com\/ngstatic\/appScreenAds - reject
     - ^https?:\/\/api\.qiuduoduo\.cn\/guideimage - reject
     - ^https?:\/\/api\.rr\.tv\/.*?Version - reject
     - ^https?:\/\/api\.rr\.tv\/ad\/ - reject
@@ -1307,6 +1306,7 @@ http:
     - "api.k.sohu.com"
     - "api.kkmh.com"
     - "api.kmovie.gifshow.com"
+    - "api.kurobbs.com"
     - "api.laifeng.com"
     - "api.lkcoffee.com"
     - "api.m.jd.com"
@@ -1322,6 +1322,7 @@ http:
     - "api.pinduoduo.com"
     - "api.psy-1.com"
     - "api.qbb6.com"
+    - "api.qd-metro.com"
     - "api.qiuduoduo.cn"
     - "api.rr.tv"
     - "api.sfacg.com"
